@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after{
   content: '';
   display: table;
@@ -15,6 +19,7 @@
   width: 70%;
   margin: auto;
 }
+
 
 /* HEADER */
 .logo{
@@ -62,7 +67,7 @@ main h4{
 .titolo{
   width: 100%;
   height: 10%;
-  margin-bottom: 1%;
+  margin-bottom: 20px;
 }
  
 .col-sinistra, .col-destra{
@@ -72,11 +77,6 @@ main h4{
 .col-centro{
   width: 56%;
   margin: 0% 2%;
-}
-
-.widgets{
-  width: 20%;
-  height: 88%
 }
 
 .special-img{
@@ -98,3 +98,13 @@ main h4{
 }
 
 /* FOOTER */
+.fine{
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+} 
+
+#special-item{
+  color: red;
+}
