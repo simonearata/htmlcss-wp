@@ -20,6 +20,10 @@ body{
   margin: auto;
 }
 
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 /* HEADER */
 .logo{
@@ -53,6 +57,18 @@ nav li a{
   background-position: center;
   margin-bottom: 20px;
   border-radius: 10px;
+  overflow: hidden;
+}
+
+.banner-text{
+  color: white;
+  padding-left: 50px;
+  padding-top: 20%;
+  padding-right: 40%;
+}
+
+.banner-text h3{
+  font-size: 30px;
 }
 
 /* MAIN */
@@ -83,6 +99,8 @@ main h4{
   background-size: cover;
   height: 150px;
   background-position: center;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .foto1{
